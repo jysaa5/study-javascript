@@ -1,6 +1,10 @@
 "use strict";
 
 // One-Pass Removal of k-th Node from End
+// 시간 복잡도: O(n)
+// 리스트를 처음부터 끝까지 한 번만 순회하기 때문이다. fast가 매 반복마다 한 칸씩 이동하고 n개의 노드를 한 번씩만 방문한다.
+// 공간 복잡도: O(1)
+// 추가 자료구조 없이 포인터 2개(fast, slow)만 사용하기 때문이다. 입력 크기와 상관없이 항상 일정한 메모리만 사용한다.
 
 process.stdin.resume();
 process.stdin.setEncoding("utf-8");
@@ -80,7 +84,7 @@ function printSinglyLinkedList(node, sep) {
  */
 
 function removeKthNodeFromEnd(head, k) {
-  if (head < 0) {
+  if (!head) {
     return head;
   }
 

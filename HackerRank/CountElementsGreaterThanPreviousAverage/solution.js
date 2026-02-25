@@ -1,5 +1,9 @@
 "use strict";
 // Count Elements Greater Than Previous Average
+// 시간 복잡도: O(n)
+// 배열을 처음부터 끝까지 한 번만 순회한다.
+// 공간 복잡도: O(1)
+// answer, sum, previousAverage 변수만 사용하고 추가 자료구조가 없다.
 
 process.stdin.resume();
 process.stdin.setEncoding("utf-8");

@@ -1,6 +1,10 @@
 "use strict";
 
 // Remove Consecutive Duplicates from Sorted Linked List
+// 시간 복잡도: O(n)
+// fast가 모든 노드를 한 번씩만 방문하며 한 번만 순회한다.
+// 공간 복잡도: O(1)
+// fast, slow 포인터 2개만 사용하고 추가 자료구조가 없다.
 
 process.stdin.resume();
 process.stdin.setEncoding("utf-8");
