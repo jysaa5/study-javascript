@@ -1,7 +1,7 @@
 "use strict";
 
 // Maximum Number of Non-Overlapping Intervals
-// 시간 복잡도: O(n log n)
+// 시간 복잡도: 정렬(O(n log n)) + 순회(O(n)) = O(n log n)
 // 회의들을 끝나는 시간 기준으로 정렬한다. 그 후에 한 번의 반복으로 답을 찾는다.
 // 공간 복잡도: O(1)
 // 상수 공간만 있음.
