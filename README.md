@@ -1,6 +1,3 @@
-## :pencil2: Notion
-+ [Study Room](https://violet-lilac.notion.site/JavaScript-3e3b7cf2d95d430898d7e05e0958164e)
-
 ## :computer: Technology Stack
 + [ES6](https://developer.mozilla.org/ko/docs/Web/JavaScript)
 + [axios](https://github.com/axios/axios)
