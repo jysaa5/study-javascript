@@ -1,4 +1,5 @@
 // 배열의 평균값
+
 function solution(numbers) {
   let answer = 0;
 
