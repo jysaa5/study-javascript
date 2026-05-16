@@ -1,3 +1,5 @@
+// 가위 바위 보
+
 function solution(rsp) {
   let answer = "";
 
