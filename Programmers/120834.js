@@ -1,14 +1,11 @@
-// 외계행성의 나이
-
 function solution(age) {
   let answer = "";
   let alphabet = new Map();
 
   const start = "a".charCodeAt(0);
-  const end = "j".charCodeAt(0);
 
   for (let i = 0; i <= 9; i++) {
-    alphabet.set(String(i), String.fromCharCode("a".charCodeAt(0) + i));
+    alphabet.set(String(i), String.fromCharCode(start + i));
   }
 
   const ageString = String(age).split("");
