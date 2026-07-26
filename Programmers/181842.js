@@ -1,3 +1,5 @@
+// 부분 문자열
+
 function solution(str1, str2) {
   let answer = 0;
 
