@@ -15,7 +15,7 @@ function solution(numbers, target) {
     dfs(index + 1, sum - numbers[index]);
   }
 
-  dfs(0, 0, answer);
+  dfs(0, 0);
 
   return answer;
 }
